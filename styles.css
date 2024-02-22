@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(111, 110, 110);
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+header .spacer {
+    flex-grow: 0.06;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid black;
+}
+
+header .logo h1 img {
+    width: 50%;
+}
+
+header .icons img {
+    width: 30px;
+    
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .icons {
+    display: flex;
+    gap: 45px;
+}
+.success-message {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    margin: 20px 0;
+}
+.instructions button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #92f776; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.order-number {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.thank-you {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.instructions {
+    margin-bottom: 30px;
+}
+.contact-info {
+    font-size: 0.9em;
+}
